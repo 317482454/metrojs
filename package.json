@@ -1,6 +1,6 @@
 {
   "name": "mtrjs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/317482454/metrojs/issues"
   },
-  "homepage": "https://github.com/317482454/metrojs#readme"
+  "homepage": "https://github.com/317482454/metrojs#readme",
+  "keywords": [
+    "metro"
+  ]
 }
