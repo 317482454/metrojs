@@ -1,0 +1,26 @@
+{
+  "name": "metrojs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "browserify": "^16.2.2",
+    "buffer": "^5.0.0",
+    "crypto-js": "^3.1.8",
+    "jsbn": "0.0.0",
+    "pako": "^1.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/317482454/metrojs.git"
+  },
+  "author": "317482454",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/317482454/metrojs/issues"
+  },
+  "homepage": "https://github.com/317482454/metrojs#readme"
+}
