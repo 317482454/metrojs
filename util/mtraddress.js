@@ -1,8 +1,4 @@
-/*
-    NXT address class, extended version (with error guessing).
 
-    Version: 1.0, license: Public Domain, coder: NxtChg (admin@nxtchg.com).
-*/
 
 module.exports = function() {
     var codeword = [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];

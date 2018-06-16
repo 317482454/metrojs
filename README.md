@@ -1,8 +1,8 @@
-# metrojs
-Small collection of JavaScript functions for Nxt. Allows for local signing of transactions, token creation/validation and encryption/decryption of arbitrary messages.
+# mtrjs
+Small collection of JavaScript functions for Metro. Allows for local signing of transactions, token creation/validation and encryption/decryption of arbitrary messages.
 
 ### Install
-`npm install metrojs`
+`npm install mtrjs`
 
 ### Test
 `npm test`
@@ -10,23 +10,23 @@ Small collection of JavaScript functions for Nxt. Allows for local signing of tr
 ### Usage
 ##### node.js:
 
-    var metrojs = require('metrojs');
+    var mtrjs = require('mtrjs');
 
     // Create an account
-    var acc = metrojs.secretPhraseToAccountId('secret');
+    var acc = mtrjs.secretPhraseToAccountId('secret');
     console.log(acc);
 
 ##### Browser:
 
 Create the bundle with browserify:
 
-`browserify index.js -s metrojs > build/metrojs.js`
+`browserify index.js -s mtrjs > build/mtrjs.js`
 
 Use in HTML file:
 
-    <script src="metrojs.js"></script>
+    <script src="mtrjs.js"></script>
     <script>
-        var acc = metrojs.secretPhraseToAccountId('secret');
+        var acc = mtrjs.secretPhraseToAccountId('secret');
         console.log(acc);
     </script>
 
@@ -47,10 +47,10 @@ Signs a hex string of unsigned transaction bytes (e.g. as received from NRS API)
 with the provided passphrase and returns it.
 
 #### createToken(string, secretPhrase)
-Generates a Nxt cryptographic token
+Generates a Metro cryptographic token
 
 #### parseToken(token, string)
-Parses a Nxt cryptographic token. Returns an object with the keys `isValid`,
+Parses a Metro cryptographic token. Returns an object with the keys `isValid`,
 `timestamp`, `publicKey` and `accountRS`.
 
 #### encryptMessage(plainText, recipientPublicKey, senderSecretPhrase)
